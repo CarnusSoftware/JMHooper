@@ -14,15 +14,14 @@ html, body {
   width:1000px;
 }
 
-#equalizerContainer {       background-color: #2D2C2A;
-                            background-image: url("../img/header-bg-2.png");
-                            min-height: 611px;
+#title-container {         background-color: #44BFB4;
+                            min-height: 480px;
                             width: auto;
                             height: auto;
-                            background-position: center center;
-                            background-repeat: no-repeat;
+                            /*background-position: center center;
+                            background-repeat: no-repeat;*/
                             /*background-attachment: fixed;*/
-                            background-size: cover;
+                            /*background-size: cover;*/
 
     
 
@@ -60,11 +59,24 @@ p {
 
 
 .title {
-                            font-size: 8em;
+                            font-size: 2em;
+                            color:#fff;
                             vertical-align: middle;
                             text-align:center;
                             padding-bottom: 1.5%;
                             margin: 0 auto;
+                            font-style:thin;
+                            font-family:roboto;
+                            padding-top: 35px;
+}
+
+.title-content {
+    font-weight: 100;
+    font-size: 25px;
+    font-family: roboto;
+    padding-bottom: 30px;
+    padding-top: 5px;
+
 }
 
     .title #name {
@@ -76,56 +88,17 @@ p {
                             padding-top: 20px;
 }
 
-
-.player {
-                            background-color: #5A534D;
-                            min-height: 300px;
+.contact-icons  {
+  margin-right:60px;
 
 }
 
-    .player #equalizerPlaceHolder {
-                            margin: 0 auto;
+.contact-icons img {
+  margin-left:60px;
 
-    }
-
-    .controls button {
-        border: none;
-        outline: 0;
-        
-    }
-
-    .controls {
-      height:30px;
-
-    }
-
-.play {
-    min-height: 50px;
-    min-width: 50px;
-    background: url(../img/player/play.png);
-    background-repeat: no-repeat;
 }
 
-.pause {
-    min-height: 50px;
-    min-width: 50px;
-    background: url(../img/player/pause.png);
-    background-repeat: no-repeat;
-}
 
-.mute {
-    min-height: 50px;
-    min-width: 50px;
-    background: url(../img/player/mute.png);
-    background-repeat: no-repeat;
-}
-
-.unmute {
-    min-height: 50px;
-    min-width: 50px;
-    background: url(../img/player/unmute.png);
-    background-repeat: no-repeat;
-}
 
 
 
@@ -140,7 +113,7 @@ p {
 }
 
 .contents {
-                            background-color:#2D2C2A;
+                            background-color:#fff;
     
 }
 
@@ -172,7 +145,7 @@ p {
 
     #info {
                             /*margin: 25px 0 25px 0;*/
-                            background-color: #2D2C2A;
+                            background-color: #EDEDED;
                             padding: 25px 0 25px 0;
                             min-height:100px;
     }
@@ -253,7 +226,7 @@ p {
     float:left;
     width:1000px;
     overflow:auto;
-    margin-bottom: 30px;
+   /* margin-bottom: 30px;*/
 
 }
 
@@ -265,8 +238,8 @@ p {
 
 .schedule-content {
     padding:5px;
-    width:300px;
-    height:68px;
+    width: 218px;
+    height:178px;
     margin:10px 0px 10px 0px;
 }
 
@@ -281,7 +254,7 @@ p {
 
 .schedule-info-left {
     float:left;
-    width:57px;
+    width: 5px;
     text-align:left;
 }
 
@@ -299,7 +272,7 @@ p {
 
 .schedule-info-right{
     float:right;
-    width:210px;
+    width: 203px;
     text-align:left;
 } 
 
@@ -412,13 +385,13 @@ a:active {
 
 .contact {
     float:left;
-    width:1000px;
+    /*width:1000px;*/
     overflow:auto;
  
 }
 
 .column-contact {
- width:500px;
+ width:960px;
  float:left;
 
 }
@@ -433,20 +406,21 @@ a:active {
 }
 
 .contact-info {
-  color:#fff;
+  color:#9B4499;
   font-size:11px;
+  font-weight:bold;
 }
 
 .contact-info-left{
   float:left;
-  width:256px;
+  width:500px;
 }
 
 .contact-info-right {
-  float:right;
-  width:285px;
-  text-align:left;
-  margin-left:35px;
+  float: right;
+    width: 334px;
+    text-align: left;
+    margin-left: 40px;
 
 }
 
